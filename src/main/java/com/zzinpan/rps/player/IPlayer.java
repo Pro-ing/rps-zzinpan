@@ -1,12 +1,11 @@
 package com.zzinpan.rps.player;
 
-import com.zzinpan.rps.RpsType;
+import com.zzinpan.rps.type.RpsType;
 
 public interface IPlayer {
 
     public String getName();
 
-    public IPlayer setRpsType( RpsType rpsType );
     public RpsType getRpsType();
 
 }

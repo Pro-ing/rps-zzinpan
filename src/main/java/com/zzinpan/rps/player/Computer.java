@@ -1,6 +1,6 @@
 package com.zzinpan.rps.player;
 
-import com.zzinpan.rps.RpsType;
+import com.zzinpan.rps.type.RpsType;
 
 public class Computer implements IPlayer {
 
@@ -24,9 +24,7 @@ public class Computer implements IPlayer {
         return this.name;
     }
 
-
-    @Override
-    public IPlayer setRpsType(RpsType rpsType) {
+    public IPlayer setRpsType() {
         double random = Math.random();
         if( random < 0.3333 ){
             this.rpsType = RpsType.ROCK;
@@ -45,5 +43,12 @@ public class Computer implements IPlayer {
     @Override
     public RpsType getRpsType() {
         return this.rpsType;
+    }
+
+    @Override
+    public String toString() {
+        return "Computer{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }
