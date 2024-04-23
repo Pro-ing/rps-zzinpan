@@ -1,6 +1,6 @@
-package src.main.rps;
+package com.zzinpan.rps;
 
-import src.main.rps.player.IPlayer;
+import com.zzinpan.rps.player.IPlayer;
 
 import java.util.ArrayList;
 import java.util.List;

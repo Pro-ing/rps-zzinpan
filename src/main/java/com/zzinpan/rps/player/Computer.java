@@ -1,6 +1,6 @@
-package src.main.rps.player;
+package com.zzinpan.rps.player;
 
-import src.main.rps.RpsType;
+import com.zzinpan.rps.RpsType;
 
 public class Computer implements IPlayer {
 

@@ -1,4 +1,4 @@
-package src.main.rps;
+package com.zzinpan.rps;
 
 public enum ResultType {
 

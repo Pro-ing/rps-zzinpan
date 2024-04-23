@@ -1,10 +1,10 @@
-package src.test;
+package com.zzinpan;
 
+import com.zzinpan.rps.Rps;
+import com.zzinpan.rps.player.Computer;
+import com.zzinpan.rps.player.User;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import src.main.rps.Rps;
-import src.main.rps.player.Computer;
-import src.main.rps.player.User;
 
 public class MainTest {
 

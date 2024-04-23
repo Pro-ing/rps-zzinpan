@@ -1,10 +1,7 @@
-package src.test.rps;
+package com.zzinpan.rps;
 
-import org.junit.jupiter.api.DisplayName;
+import com.zzinpan.rps.player.User;
 import org.junit.jupiter.api.Test;
-import src.main.rps.Rps;
-import src.main.rps.player.Computer;
-import src.main.rps.player.User;
 
 import static org.junit.jupiter.api.Assertions.*;
 
